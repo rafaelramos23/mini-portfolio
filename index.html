@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+
+    <title>Portfólio</title>
+</head>
+<body>
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <img src="./src/imagens/foto-perfil.jpg" alt="foto de perfil">
+            <h1 class="nome">Rafael de Oliveira Ramos</h1>
+            <h2 class="cargo">Desenvolvedor Frontend Júnior</h2>
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="./src/imagens/sobre.gif" alt="icone sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/imagens/wifi.gif" alt="icone redes sociais">
+                </li>
+                <li class="aba" id="meus-projetos">
+                    <img src="./src/imagens/projetos.gif" alt="icone redes sociais">
+                </li>
+
+            </ul>
+
+            <div class="informacoes-abas">
+
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+                
+                    <div class="descricao">
+                        <p>Oi, eu sou o Rafael, seja bem vindo(a)!</p>
+                        <p>
+                            Desde que eu me lembro, eu era apaixonado por video-games e jogos, isso criou uma
+                            grande afinidade com tecnologia, que gerou meu interesse no curso de Técnico de Informática 
+                            na ETEC da Tatuí, lá tive meu primeiro contato com programação e me encantei. 
+                            Posteriormente cursei Analise e Desenvolvimento de Sistemas na Fatec da minha cidade, foi uma verdadeira
+                            sina terminar o curso, mas isso sem dúvidas também é uma das minhas maiores conquistas.
+                            Recentemente devido a evolução em meu trabalho, realizei uma pós graduação em Segurança da Informação.
+                            No entanto, mesmo tendo uma noção de muitas coisas, não me sinto especialista em nada.
+                            Atualmente sou funcionário publico, mas não me vejo nesse trabalho pelo resto da minha vida, 
+                            por isso atualmente estou estudando <span>HTML, CSS e JavaScript</span>. 
+                            Gosto muito de café, tenho muito interesse em criptomoedas, metaverso e meus principais hobbies são ler, 
+                            assistir animes e séries.
+                          </p>
+
+                    </div>
+                </div>
+
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas Redes</h3>
+
+                    <ul class="redes-sociais">
+                        <!-- <li> 
+                            <a href="https://docs.google.com/document/d/1y29qJelptW_dI6KlpK9LLGVusSQfaGkfQ6sTuH9CJcM/edit?usp=sharing" target="_blank" class="curriculo">Currículo</a>
+                        </li> -->
+                        <li>
+                            <a href="https://www.linkedin.com/in/rafaelramos23/" target="_blank" class="linkedin">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/rafaelramos23/" target="_blank" class="github">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="https://www.skoob.com.br/usuario/331672" target="_blank" class="skoob">Skoob</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="informacao" id="informacao-meus-projetos">
+                    <h3 class="sub-titulo">Meus Projetos</h3>
+
+                    <ul class="meus-projetos">
+                        <li> 
+                            <div class="projeto-icones">
+                                <a href="https://github.com/rafaelramos23/estudioso" target="_blank" class="estudioso">Estudioso APP</a>
+                                <img src="./src/imagens/java.svg" alt="Java" class="icon">
+                                <img src="./src/imagens/firebase.png" alt="Firebase" class="icon">
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="projeto-icones">
+                                <a href="https://github.com/rafaelramos23/PowerService" target="_blank" class="lab">Power Service</a>
+                                <img src="./src/imagens/php.svg" alt="PHP" class="icon">
+                                <img src="./src/imagens/html5.svg" alt="HTML" class="icon">
+                                <img src="./src/imagens/mysql.png" alt="MySQL" class="icon">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="projeto-icones">
+                                <a href="https://github.com/rafaelramos23/TesteTempoAPI" target="_blank" class="previsao">Dados do tempo</a>
+                                <img src="./src/imagens/csharp.svg" alt="CSharp" class="icon">
+                                <img src="./src/imagens/api.png" alt="API" class="icon">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+    
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
